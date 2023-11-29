@@ -1,0 +1,10 @@
+openai==0.28
+python-dotenv
+pandas
+bs4
+streamlit
+langchain
+openpyxl
+streamlit-extras
+hydralit_components
+streamlit-lottie

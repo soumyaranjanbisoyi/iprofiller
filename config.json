@@ -1,0 +1,25 @@
+{
+    "prompts": {
+        "Overview": "Please provide a bio of {} from the entire text within 100 words that must be completed and meaningful. Don't include DOB as we are extracting it separately.",
+        "Full_name": "Extract full name for {}, make sure full name should be capital letter",
+        "DOB": "Extract Date of Birth for {}, make sure dont use any additional sentence just give only in DD-MM-YYYY format",
+        "Age": "Extract age of {}, give only the number not any additional word.",
+        "Occupation": "Extract occupation of {} in just a single word",
+        "Networth": "Extract Networth of {}, give the numeric figure only.",
+        "Citizenship": "Extract Citizenship of {}",
+        "Address": "Extract residence address of {}",
+        "Source_of_wealth": "Extract information about the source of wealth of {} in 1-3 words",
+        "Billionaires_Rank": "Extract Billionaires rank for {} if it's available or else return Not found",
+        "Forbes_400_Rank": "Extract Forbes 400 rank for {} if it's available or else return Not found",
+        "Marital_status": "Extract marital status of {}, along with marital status also give some detailed information about it",
+        "property_holding": "Extract property holding information for {}, make sure the sentence is completed properly and ends with proper puntuation",
+        "early_life": "Extract details about {}'s early life, make sure information should be completed properly and ends with proper puntuation",
+        "Career": "Extract all information about {}'s professional career. Make sure it should only contain information about the professional background like previous company, current company, etc.",
+        "Investment": "Extract information about {}'s investment portfolio. Make sure the information should be meaningfull and completed properly also ends with proper puntuation mark.",
+        "philanthropy": "Extract details about {}'s philanthropic activities.",
+        "awards_and_honors": "Extract awards and honors received by {}",
+        "legal_disputes": "Extract information about any legal disputes involving {}.",
+        "Close_connections": "Extract Name of 5 influential business people connected with {}. Make sure it should contain  name with one liner description of the person in bullet point",
+        "Additional_Information": "From the entire context extract any additional information of {} if i am missing in previous section but those are important, make sure the sentence is completed properly and ends with proper puntuation mark."
+    }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-size: 9px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        h2 {
+            font-size: 14px;
+        }
+
+        h1, h2 {
+            color: #016487;
+
+        }
+        .info p {
+            word-wrap: break-word;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 190px; /* Adjust the maximum width as needed */
+        }
+
+        .section3 h3 {
+            color: #016487;
+        }
+
+        h1{
+            font-family: 'Poppins', sans-serif;
+            font-weight:bolder ;
+        }
+
+        .details {
+            display: inline-block;
+            margin-right: 39px;
+        }
+
+        .section3 {
+            margin-top: 20px;
+        }
+
+        .info {
+            display: inline-block;
+            vertical-align: top; /* Align the containers to the top of the line */
+            margin-right: 39px;
+            margin-top: 30px;
+        }
+
+        .conf {
+            margin-top: 140px;
+        }
+        .section1 {
+            margin-left: 20px;
+            margin-top: 10px;
+            overflow: hidden; /* Clear any floats inside the .section1 div */
+        }
+
+        .section2 {
+            margin-left: 20px;
+            max-width: 1200px;
+        }
+
+        .section3 {
+            margin-left: 20px;
+        }
+
+        .section3 {
+            padding-right: 30px;
+            
+        }
+
+        .section1 h1,
+        .section1 h3,
+        .section1 p {
+            margin-right: 20px; /* Adjust as needed for spacing */
+            margin-right: 10px;
+            
+        }
+        .right {
+            float: right; /* Float the right div to the right */
+            margin-left: 20px; /* Adjust the margin as needed */
+            margin-top: 20px;
+        }
+        .profile_img {
+            margin-right: 30px; /* Adjust the margin as needed */
+            height: 100px; /* Adjust the height as needed */
+            
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Adjust the shadow values as needed */
+        }
+        .left {
+            float: left; /* Float the left div to the left */
+            width: 70%; /* Adjust the width as needed */
+            word-wrap: break-word; /* Allow long words to break and wrap */
+        }
+        .conf {
+            margin-left: 410px;
+        }
+        .banner_image {
+            display: block;
+        }
+        .horizontal-line {
+            border-bottom: 2px solid #016487;
+            opacity: 20%;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
+    <title>{{{Name}}}</title>
+</head>
+<body>
+    <img class="banner-image" src="http://localhost:3000/pages/data/public/images/Final2.png" alt="banner" width="870" height="auto">
+    <div class="section1">
+        <div class="left">
+            <h1>{{{Name}}}</h1>
+            <h3>{{{Occupation}}}</h3>
+            <p>{{{Bio}}}</p>
+        </div>
+        <div class="right">
+            <img class="profile_img" src="{{{image_path}}}" alt="profile" height="80">
+        </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="section2">
+        <div class="info">
+            <div class="details">
+                <h2>PERSONAL DETAILS</h2>
+                <p>
+                    <b> Full Name - </b> {{{Name}}} <br><br>
+                    <b> Age - </b> {{{Age}}} <br><br>
+                    <b> Occupation - </b> {{{Occupation}}} <br><br>
+                    <b> Networth - </b> {{{Net_Worth}}} <br><br>
+                    <b> Education - </b> {{{Education}}} <br><br>
+                    <b> Address - </b> {{{address}}} <br><br>
+                    <b> Marital Status - </b> {{{marital_status}}} <br><br>
+                </p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="details">
+                <h2>ASSETS</h2>
+                <p>
+                    {{{property_holdings}}}
+                </p>
+            </div>
+        </div> 
+        <div class="info">
+            <div class="details">
+                <h2>PERSONAL CONNECTIONS</h2>
+                <p>
+                    {{{Close_connections}}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-line"></div>
+    <div class="section3">
+        <h2>MORE DETAILS</h2>
+        <div class="early">
+            <h3>Early life</h3>
+            <p>{{{early_lifee}}}</p>
+        </div>
+        <div class="Career">
+            <h3>Career</h3>
+            <p>{{{Careers}}}</p>
+        </div>
+        <div class="Philanthropy">
+            <h3>Philanthropy</h3>
+            <p>{{{philanthropy_activitiess}}}</p>
+        </div>
+        <div class="Awards & Honors">
+            <h3>Awards Honors</h3>
+            <p>{{{awards_and_honorss}}}</p>
+        </div>
+        <div class="Additional Information">
+            <h3>Additional Information</h3>
+            <p>{{{Additional_Information}}}</p>
+        </div>
+    </div> 
+    <div class="conf">
+        <h4>CONFIDENTIAL</h4>
+    </div>
+</body>
+</html>
